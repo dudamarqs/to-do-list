@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloco de Notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🗒️ Bloco de Notas</h1>
+
+    <form id="noteForm">
+        <input type="text" id="title" placeholder="Título" required>
+        <textarea id="description" placeholder="Descrição" required></textarea>
+        <input type="file" id="image">
+        <button type="submit">Adicionar nota</button>
+    </form>
+
+    <div id="notes"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
